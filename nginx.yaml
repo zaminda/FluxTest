@@ -2,7 +2,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: myapp
-  namespace: test1
 spec:
   selector:
     matchLabels:
